@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    height: 100vh;
     font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "home home home home";
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.header {
+    grid-area: header;
 }
 
 .home {
+    height: 100vh;
+    grid-area: home;
     background-image: url(../images/background-justiça-home.png);
     background-color: red;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     width: 100%;
     color: var(--branco-cinza);
     font-family: "Roboto", sans-serif;
@@ -19,6 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    object-fit: cover;
 }
 
 .container {
@@ -30,9 +41,8 @@ body {
 }
 
 .titulo-principal-home {
-    font-size: 1.375rem;
+    font-size: 1.8rem;
     font-weight: bold;
-   
 }
 
 .descricao-home {
@@ -49,7 +59,7 @@ body {
     height: 110px;
     border-radius: 40px;
     margin: 25px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     transition: all 0.2s ease-in-out;
 }
