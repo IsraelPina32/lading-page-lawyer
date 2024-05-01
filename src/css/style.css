@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+body {
+    font-family: "Roboto", sans-serif;
+}
 .home {
     height: 100vh;
     grid-area: home;
@@ -11,7 +13,6 @@
     font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -25,7 +26,7 @@
 }
 
 .titulo-principal-home {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -39,11 +40,11 @@
     background: none;
     color: var(--branco);
     background-color: var(--azul-cinza-escuro);
-    width: 320px;
-    height: 110px;
+    width: 340px;
+    height: 80px;
     border-radius: 40px;
     margin: 25px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 400;
     transition: all 0.2s ease-in-out;
 }
@@ -57,6 +58,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
     text-align: center;
     gap: 50px;
 }
@@ -64,12 +66,14 @@
 .servicos .titulo-servicos {
     color: var(--preto-neutro);
     font-size: 1.8rem;
-    font-weight: bold;  
+    font-weight: bold;
+    padding: 15px;  
 }
 
 .servicos .descricao-servicos {
     font-size: 1.4rem;
     font-weight: bold;
+    padding: 15px;
 }
 
 .servicos .itens {
@@ -83,13 +87,19 @@
 .servicos .item {
     background-color: var(--preto-neutro);
     color: var(--branco-cinza);
-    width: 250px;
-    height: 120px;
+    width: 230px;
+    height: 100px;
     display: flex;
     align-items: center; 
     justify-content: center;
     font-size: 1.4rem; 
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 4px 0px 79px -21px rgba(41,40,41,1);
+}
+
+.servicos .item:hover {
+    transform: scale(1.1);
 }
 
 .servicos .btn-whatsaps {
@@ -97,5 +107,20 @@
     color: var(--branco-cinza);
     font-size: 1.5rem;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 35px;
+    transition: all 0.2s ease-in-out;
+    margin: 20px 10px;
+}
+
+.servicos .btn-whatsaps:hover {
+    transform: scale(1.1);
+}
+
+.servicos .estatua-homem {
+    position: absolute;
+    right: 0;
+}
+
+.sobre {
+    background-color: var(--preto-neutro);
 }

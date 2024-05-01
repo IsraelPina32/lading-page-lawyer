@@ -1,3 +1,41 @@
+@media (max-width: 1440px){
+    .servicos .estatua-homem {
+        width: 150px;
+        bottom: 30%;
+    }
+}
+
+@media (max-width: 1024px){
+    .servicos .estatua-homem {
+        width: 150px;
+        bottom: 20%;
+    }
+}
+
+@media (max-width: 768px){
+    .servicos .estatua-homem {
+        display: none;
+    }
+}
+
 @media (max-width: 425px){
-    
+    .home {
+        background-color: var(--preto-neutro);
+    } 
+    .servicos .btn-whatsaps  {
+        padding: 15px;
+    }
+    .servicos {
+        background-color: var(--preto-neutro);
+        
+    }
+
+    .servicos .titulo-servicos , .servicos .descricao-servicos {
+        color: var(--branco-cinza);
+    }
+
+    .servicos .itens .item {
+        background-color: var(--branco-cinza);
+        color: var(--preto-neutro);
+    }
 }

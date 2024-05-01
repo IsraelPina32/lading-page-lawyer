@@ -5,6 +5,7 @@
     align-items: center;
     padding: 25px 30px;
     width: 100%;
+    z-index: 1;
     position: fixed;
 }
 
