@@ -3,7 +3,7 @@
 Lading page para Thiago Advogado com o foco em mostrar seus serviços. 
 
 
-Dedicated website for the character Katarina from Legue of Legends.
+Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 
 
 
