@@ -1,6 +1,5 @@
 # Projeto Freelacer Lading Page : Advogado Thiago
 
-
 Lading page para Thiago Advogado com o foco em mostrar seus serviços. 
 
 
