@@ -8,7 +8,7 @@ Dedicated website for the character Katarina from Legue of Legends.
 
 
 
-<img src="./src/images/lading-page-advogado-thiago-background.png" alt="Lading page Gif" height="500px" width="700px"> 
+<img src="./src/images/lading-page-advogado-thiago-background.png" alt="Lading page Gif" height="600px" width="800px"> 
 
 
 ## Tecnologias utilizadas, Technologies used
