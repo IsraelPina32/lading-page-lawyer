@@ -20,3 +20,4 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 -
 
 ## O que eu Aprendir com essas Tecnologias
+  <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=9c28d4&height=120&section=footer"/>
