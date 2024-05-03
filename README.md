@@ -11,6 +11,7 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 
 
 ## Tecnologias utilizadas, Technologies used
+ <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
 
 - HTML
 - CSS
