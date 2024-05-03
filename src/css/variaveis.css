@@ -5,4 +5,7 @@
     --azul-cinza-claro: #343A40;
     --preto-neutro: #1E1E1E;
     --verder-escuro: #067E12;
+    --amarelo-cinzentado: #D4C572;
+    /* width: largura*/
+    --header-heigth: cal(51px / 16 * 1rem)
 }

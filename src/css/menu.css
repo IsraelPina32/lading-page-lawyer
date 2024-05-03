@@ -122,7 +122,7 @@
     .header nav {
        position: absolute;
        top: 15px;
-       right: 35px;
+       right: 60px;
        z-index: 1;
     }
     .header nav ul li {
@@ -131,7 +131,7 @@
 
     .header nav ul {
         background-color:  var(--azul-cinza-escuro);
-        border: 1px solid var(--branco-cinza);
+        border: 1px solid var(--amarelo-cinzentado);
         text-align: center;
         padding: 15px;
         height: 15.625rem;

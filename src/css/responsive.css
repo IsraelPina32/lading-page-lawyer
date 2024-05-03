@@ -1,10 +1,3 @@
-@media (max-width: 1440px){
-    .servicos .estatua-homem {
-        width: 150px;
-        bottom: 30%;
-    }
-}
-
 @media (max-width: 1024px){
     .servicos .estatua-homem {
         display: none;
@@ -12,29 +5,74 @@
 }
 
 @media (max-width: 768px){
+
+    .servicos {
+        background-color: var(--preto-neutro);
+        color: var(--branco);
+        height: unset;
+    }
+
+    .servicos .item {
+        background-color: var(--branco);
+        color: var(--preto-neutro);
+    }
+
+
     .servicos .estatua-homem {
         display: none;
     }
-}
 
+    .sobre {
+        height: unset;
+        background-color: var(--branco);
+        color: var(--preto-neutro);
+    }
+
+    .sobre .titulo-sobre {
+        margin-right: 2rem;
+    }
+    
+
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre .titulo-profissao {
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid var(--preto-neutro);
+    }
+
+    .sobre .advogado {
+        height: calc(250 / 16 * 1rem);
+        padding: 0.9rem;
+    }
+
+    .sobre .advogado:first-child {
+        border-bottom: 1px solid var(--amarelo-cinzentado);
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .contato {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
 @media (max-width: 425px){
     .home {
         background-color: var(--preto-neutro);
     } 
-    .servicos .btn-whatsaps  {
-        padding: 15px;
-    }
     .servicos {
-        background-color: var(--preto-neutro);
-        
+        background-color: var(--preto-neutro);  
     }
-
     .servicos .titulo-servicos , .servicos .descricao-servicos {
         color: var(--branco-cinza);
     }
-
     .servicos .itens .item {
         background-color: var(--branco-cinza);
         color: var(--preto-neutro);
     }
 }
+

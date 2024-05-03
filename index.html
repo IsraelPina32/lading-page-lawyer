@@ -27,8 +27,8 @@
             </label>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#servicos">Meus Serviços</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="" class="btn-menu">Marque uma consultoria!</a></li>
             </ul>
@@ -36,12 +36,12 @@
         </div> 
     </header>
     <section class="home" id="home">
-        <div class="container">
-            <h1 class="titulo-principal-home">Bem-vindo ao serviços Thiago Advogado Online - Seu Parceiro Jurídico!</h1>
-            <p class="descricao-home">Seja bem-vindo(a) à Thiago, o seu destino para soluções jurídicas confiáveis e personalizadas. Estamos aqui para oferecer suporte jurídico de alta qualidade, trazendo tranquilidade e resolução para as suas questões legais.</p>
-            <button class="btn">Consiga ajuda Jurídica especializada agora!</button>
-        </section>
-        </div>
+            <div class="container">
+                <h1 class="titulo-principal-home">Bem-vindo ao serviços Thiago Advogado Online - Seu Parceiro Jurídico!</h1>
+                <p class="descricao-home">Seja bem-vindo(a) à Thiago, o seu destino para soluções jurídicas confiáveis e personalizadas. Estamos aqui para oferecer suporte jurídico de alta qualidade, trazendo tranquilidade e resolução para as suas questões legais.</p>
+                <button class="btn">Consiga ajuda Jurídica especializada agora!</button>
+            </div>
+    </section>
        
     <section class="servicos" id="servicos">
         <h2 class="titulo-servicos">
@@ -70,9 +70,13 @@
     </a>
     <img src="./src/images/estatua-grega.png" alt="Estatuta grega" class="estatua-homem">
     </section>
-    <section class="sobre" id="sobre">
-        <h2 class="titulo-sobre">Sobre Mim</h2>
-        <div class="container-sobre-geral">
+
+ <section class="sobre" id="sobre">
+     <h2 class="titulo-sobre">Sobre Mim</h2>
+    <div class="conteudo">
+        <div class="container-images">
+            <img src="./src/images/advogado-ilustracao.png" alt="Imagem de um Advogado" class="advogado">
+        </div>
             <div class="container-informacoes">
                 <h2 class="titulo-profissao">
                     Advogado de Contencioso Trabalhista
@@ -82,7 +86,7 @@
                 Graduado pela Universidade Católica Dom Bosco em dezembro de 2013.
                 Pós graduado pela instituição Insted/Ematra em Direito e Processo do Trabalho no ano de 2021
                 </p>
-                <h2 class="titulo-metodo">
+                <h2 class="titulo-profissao">
                     Como Funcionar, o meu Trabalho?
                 </h2>
                 <p class="descricao-profissao">
@@ -90,42 +94,51 @@
                     Por fim, é realizado um acompanhamento pelo auditor, para que a implementação das medidas recomendadas seja feita de maneira eficaz e segura.
                 </p>
             </div>
-            <div class="container-images">
-                <img src="./src/images/advogado-ilustracao.png" alt="Imagem de um Advogado">
-            </div>
-        </div>
-       
+    </div>
     </section>
-    <section class="escritorio">
-        <h3>Escritório de Advocacia Online</h3>
-        <h2 class="escritorio-titulo">Obtenha Assistência Jurídica Online de Qualidade</h2>
-        <p class="escritorio-descricao">
-            Bem-vindo à Thiago, onde oferecemos soluções jurídicas acessíveis e eficientes, totalmente online. Nosso compromisso é proporcionar a você a tranquilidade e a segurança jurídica que você merece, onde quer que você esteja.
-        </p>
-        <a href="" class="btn-whatsaps">
-            <img src="./src/images/icone-whatzap.png" alt="Icone do Whatzap">
-            Fale com um especialista
-        </a>
-    </section>
-    <footer class="contato">
-        <div class="redes-sociais">
-            <h3 class="contato-titulo">Rede Sociais : <img src="./src/images/icone-email.png" alt="Icone do Email"> <img src="./src/images/icone-instagram.png" alt="icone instagram"><img src="./src/images/icone-linkedin.png" alt="icone linkedin"> <img src="./src/images/icone-whatsapp-branco.png" alt="icone Whatzap"></h3>
-            <p class="contato-descricao">
-                Na busca por assistência jurídica, é fundamental encontrar um advogado que não apenas entenda suas necessidades legais, mas que também esteja genuinamente comprometido em ajudá-lo em cada passo do caminho. Nosso Advogado Thiago, tem um compromisso com você vai além das simples soluções legais. Estamos aqui para oferecer um suporte abrangente e orientação personalizada, sempre prontos para ir além do esperado para garantir sua tranquilidade e satisfação.
+     <section class="escritorio">
+        <div class="overlay">
+            <h3>Escritório de Advocacia Online</h3>
+            <h2 class="escritorio-titulo">Obtenha Assistência Jurídica Online de Qualidade</h2>
+            <p class="escritorio-descricao">
+                Bem-vindo à Thiago, onde oferecemos soluções jurídicas acessíveis e eficientes, totalmente online. Nosso compromisso é proporcionar a você a tranquilidade e a segurança jurídica que você merece, onde quer que você esteja.
             </p>
+            <a href="" class="btn-whatsaps">
+                <img src="./src/images/icone-whatzap.png" alt="Icone do Whatzap">
+                Fale com um especialista
+            </a>
+        </div>
+    </section>
+    <footer class="contato" id="contato">
+        <div>
+            <div class="social">
+                <h3 class="contato-titulo">Rede Sociais:
+                </h3>
+                <nav>
+                    <ul>
+                        <li><a href=""><img src="./src/images/icone-whatsapp-branco.png" alt="Icone do whatzap"></a></li>
+                        <li><a href=""><img src="./src/images/icone-instagram.png" alt="Icone do instagram"></a></li>
+                        <li><a href=""><img src="./src/images/icone-linkedin.png" alt="Icone do linkedin"></a></li>
+                        <li><a href=""><img src="./src/images/icone-email.png" alt="Icone do Emial"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="contato-descricao">
+                O Advogado Thiago está comprometido em entender suas necessidades legais e em oferecer suporte abrangente e orientação personalizada. Estamos aqui para garantir sua tranquilidade e satisfação em cada passo do processo.            </p>
             <p class="contato-copyright">
                 Copyright | Todos os direitos reservados desde 2024
             </p>
         </div>
-        <div class="contato-servicos">
-            <h2 class="contato-subtitulo">
-                Meu Número para Contato 
-            </h2>
-            <a href="">
-                <img src="./src/images/icone-whatsapp-branco.png" alt="Icone do Whatzap">
-                <p>0392039209292930</p>
-            </a>
+        <div >
+            <div class="contato-servicos">
+                <h2 class="contato-subtitulo">
+                    Meu Número para Contato 
+                </h2>
+                <span href="">
+                    <img src="./src/images/icone-whatsapp-branco.png" alt="Icone do Whatzap">0392039209292930
+                </span>
+            </div>
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>
