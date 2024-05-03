@@ -10,9 +10,9 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 <img src="./src/images/lading-page-advogado-thiago-background.png" alt="Lading page Gif" height="600px" width="800px"> 
 
 
-## Tecnologias utilizadas, Technologies used
+## Tecnologias utilizadas, Technologies 
+ <h2> 💻 Como Desenvolvedor Frontend: </h2>
  <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
-
 - HTML
 - CSS
 
