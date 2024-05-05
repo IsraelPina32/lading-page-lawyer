@@ -29,9 +29,8 @@
     }
 
     .sobre .titulo-sobre {
-        margin-right: 2rem;
+        margin-bottom: 0;
     }
-    
 
     .conteudo {
         flex-direction: column;
