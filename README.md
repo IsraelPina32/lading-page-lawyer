@@ -14,7 +14,7 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 
 
 
-<img src="./src/images/lading-page-advogado-thiago.gif" alt="Lading page Gif" height="700px" width="500px"> 
+<img src="./src/images/lading-page-advogado-thiago.gif" alt="Lading page Gif" height="400px" width="700px"> 
 
 
 ## Tecnologias utilizadas, Technologies 
