@@ -13,7 +13,9 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 </div>
 
 
-Desktop:
+
+<h1>Desktop:</h1>
+
 <img src="./src/images/lading-page-advogado-thiago.gif" alt="Lading page Gif" height="400px" width="1000px">
 
 <h1>Mobile:</h1>
