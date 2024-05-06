@@ -9,6 +9,12 @@
     position: fixed;
 }
 
+.header .container-header .logo {
+   width: 100px;
+   height: 90px;
+   border-radius: 20px;
+}
+
 .header input {
     display: none;
 }
@@ -35,7 +41,7 @@
 
 .header .container-header nav ul li a {
     font-size: 1rem;
-    padding: 10px 25px;
+    padding: 10px 30px;
     font-weight: 500;
     color: var(--branco);
 }
@@ -44,8 +50,8 @@
 
 .header .menu {
     display: none;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 130px;
     align-self: flex-end;
   
 }
@@ -61,8 +67,8 @@
     position: relative;
     height: 2px;
     width: 30px;
-    top: 29px;
-    left: 45px;
+    top: 50px;
+    left: 35px;
     transition: all 0.2s ease-in-out;
     background-color: var(--branco-cinza);
 }
