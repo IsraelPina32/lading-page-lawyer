@@ -6,6 +6,10 @@
 
 @media (max-width: 768px){
 
+    .home {
+        height: unset;
+    }
+
     .servicos {
         background-color: var(--preto-neutro);
         color: var(--branco);
@@ -52,6 +56,10 @@
         border-bottom: 1px solid var(--amarelo-cinzentado);
         border-right: none;
         padding-right: 0;
+    }
+
+    .escritorio {
+        height: unset;
     }
 
     .contato {
