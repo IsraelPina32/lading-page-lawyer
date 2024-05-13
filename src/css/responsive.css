@@ -8,6 +8,7 @@
     .servicos {
         background-color: var(--preto-neutro);
         color: var(--branco);
+        height: unset;
     }
 
     .servicos .item {
@@ -84,9 +85,5 @@
     .home {
         height: unset;
         min-height: 100vh;
-    }
-
-    .servicos {
-        height: unset;
     }
 }
