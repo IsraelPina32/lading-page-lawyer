@@ -5,6 +5,7 @@
     align-items: center;
     padding: 10px 30px;
     height: 70px;
+    margin: auto 0;
     width: 100%;
     z-index: 1;
     position: fixed;
@@ -114,6 +115,7 @@
 }
 
 /* MENU HAMBUGUER RESPONSIVE */
+
 @media (max-width: 900px) {
     .header .menu {
         display: block;
@@ -125,6 +127,7 @@
 
     .header input:checked ~ ul {
         display: block;
+        width: 315px;
     }
     .header nav {
        position: absolute;

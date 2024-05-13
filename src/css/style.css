@@ -44,13 +44,13 @@ button {
 .titulo-principal-home {
     font-size: 1.5rem;
     text-shadow: 0 0 10px rgb(0, 0, 0);
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .descricao-home {
     font-size: 1.125rem;
     text-shadow: 0 0 10px rgb(0, 0, 0);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .btn {
@@ -60,11 +60,11 @@ button {
     background-color: var(--azul-cinza-escuro);
     max-width:  calc(250 / 16 * 1rem);
     height: 100px;
-    border-radius: 35px;
-    margin: 1.8rem;
+    border-radius: 30px;
+    margin: 1.4rem;
     font-size: 1.2rem;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 600;
     transition: all 0.2s ease-in-out;
 }
 
@@ -127,11 +127,11 @@ button {
 .servicos .btn-whatsaps , .escritorio .btn-whatsaps{
     background-color: var(--verder-escuro);
     color: var(--branco-cinza);
-    font-size: 1.5rem;
-    padding: 1.2rem;
+    font-size: 1.3rem;
+    padding: 1.4rem;
     border-radius: 35px;
     transition: all 0.2s ease-in-out;
-    margin: 1rem;
+    margin-bottom: 1.4rem;
 }
 
 .servicos .btn-whatsaps:hover ,
@@ -150,6 +150,7 @@ button {
     color: var(--branco-cinza);
     display: flex;
     height: 100vh;
+    padding: 1rem 2rem;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -164,17 +165,10 @@ button {
 .sobre .container-informacoes {
     max-width: calc(550 / 16 * 1rem);
 }
-.sobre .titulo-sobre {
-    font-family: "Roboto Slab", serif;
-    font-weight: 800;
-    font-size: 1.9em;
-    text-align: center;
-    border-bottom: 1px solid var(--branco-cinza);
-    margin-bottom: 1.5rem;
-}
 
 .sobre .titulo-profissao {
-    font-size: 1.6rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--branco);
@@ -202,7 +196,7 @@ button {
 
 .escritorio {
     height: 70vh;
-    background-image: url(../images/palacio-grego.png);
+    background-image: url(../images/palacio-grego.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,26 +208,28 @@ button {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 2rem 1rem;
     height: 100%;
-    width: 100%;
     display: flex;
-    gap: 2.8rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 2.8rem;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.escritorio h3 {
+.escritorio h3:first-child {
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.escritorio .escritorio-titulo {
-    font-size: 2rem;
-    font-weight: 600;
+.escritorio h3:first-child(2) {
+    margin-bottom: 2rem;
 }
 
 .escritorio .escritorio-descricao {
     max-width: calc(650 / 16 * 1rem);
+    margin-bottom: 2rem;
 }
 
 .contato {
