@@ -8,7 +8,6 @@
     .servicos {
         background-color: var(--preto-neutro);
         color: var(--branco);
-        height: unset;
     }
 
     .servicos .item {
@@ -30,10 +29,6 @@
         margin-bottom: 0;
     }
     
-    .escritorio {
-        height: unset;
-    }
-
     .conteudo {
         flex-direction: column;
         align-items: center;
@@ -55,17 +50,14 @@
         border-right: none;
         padding-right: 0;
     }
-
     .contato {
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
 }
+
 @media (max-width: 425px){
-    .servicos {
-        background-color: var(--preto-neutro);  
-    }
     .servicos .titulo-servicos , .servicos .descricao-servicos {
         color: var(--branco-cinza);
     }
@@ -81,9 +73,9 @@
     }
 }
 
-@media (max-width: 375px) {
-    .home {
+@media (max-width: 375px){
+    .servicos, .escritorio {
         height: unset;
-        min-height: 100vh;
+        max-width: 26rem;
     }
 }
