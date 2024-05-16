@@ -8,6 +8,7 @@
     .servicos {
         background-color: var(--preto-neutro);
         color: var(--branco);
+        height: unset;
     }
 
     .servicos .item {
