@@ -24,17 +24,16 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 <img src="./src/images/lading-page-advogado-thiago-mobile.gif" alt="Lading page Gif" height="600px" width="300px">  
 
 
-## Tecnologias utilizadas, Technologies 
+## Tecnologias utilizadas, Technologies  used
  <h2> 💻Frontend: </h2>
  <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
 
-
- 
 - HTML
 - CSS
 
 
-## Site para a Hospedagem, Technologies used
--
+## Site para a Hospedagem, Hosting website.
+
+<h2>Hostinger</h2>
 
 ## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
