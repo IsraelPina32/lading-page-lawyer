@@ -28,13 +28,11 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
  <h2> 💻Frontend: </h2>
  <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
 
-
- 
 - HTML
 - CSS
 
 
 ## Site para a Hospedagem, Technologies used
--
+- Hostinger
 
 ## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
