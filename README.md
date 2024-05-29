@@ -33,8 +33,6 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 
 
 ## Site para a Hospedagem, Hosting website.
--Hostinger
-
 <h2>Hostinger</h2>
 
 ## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
