@@ -7,6 +7,6 @@
     --verder-escuro: #067E12;
     --amarelo-cinzentado: #D4C572;
     /* width and height: altura e largura em rem*/
-    --header-heigth: cal(51px / 16 * 1rem);
+    --header-heigth: 55px;
     --width-container: 1109px;
 }

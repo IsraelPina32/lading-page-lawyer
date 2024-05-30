@@ -137,7 +137,7 @@
     }
     .header nav {
        position: absolute;
-       top: -20px;
+       top: -30px;
        right: 40px;
        z-index: 1;
        padding: 10px 10px;
@@ -158,9 +158,6 @@
 }
 
 @media (max-width: 768px) {
-    .header nav {
-        top: -15px;
-    }
     .header nav label {
         height: 5.3rem;
     }
