@@ -67,10 +67,6 @@ button {
     cursor: pointer;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
-}
-
-.btn:hover {
-    transform: scale(1.1);
     cursor: pointer;
 }
 
