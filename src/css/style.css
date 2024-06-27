@@ -59,15 +59,19 @@ button {
     color: var(--branco);
     background-color: var(--azul-cinza-escuro);
     max-width:  calc(250 / 16 * 1rem);
-    height: 90px;
+    padding: 1rem;
     border: 1px solid var(--amarelo-cinzentado);
     border-radius: 35px;
-    margin: 1.4rem;
     font-size: 1.2rem;
     cursor: pointer;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
 }
 
 .servicos {
@@ -157,6 +161,10 @@ button {
 .sobre .conteudo {
     display: flex;
     gap: 2rem;
+}
+
+.sobre .titulo-sobre {
+    padding: 1rem;
 }
 
 .sobre .container-informacoes {
@@ -261,6 +269,14 @@ button {
     padding: 2rem 5rem;
     gap: 1rem;
     color: var(--amarelo-cinzentado);
+}
+
+.contato div nav ul li a img {
+    transition: all 0.2s ease-in-out;
+}
+
+.contato div nav ul li a img:hover {
+    transform: scale(1.2);
 }
 
 .contato .contato-servicos span {
