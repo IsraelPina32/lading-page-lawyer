@@ -9,10 +9,9 @@
 
 ## ▶️ Demonstration ▶️ 
 
-<div style="margin: auto;display: flex;gap:1rem;">
+<div aling="center" style="margin: auto;display: flex;gap:3rem;">
     <img width="150px" height="300px" src="./src/images/lading-page-advogado-thiago-mobile.gif" alt="imagem-desktop">
     <img width="550px" height="300px" src="./src/images/lading-page-advogado-thiago.gif" alt="imagem-mobile">
-   
 </div>
 
   
