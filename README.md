@@ -1,38 +1,42 @@
-# Projeto Freelacer Lading Page : Advogado Thiago
-
-Lading page para Thiago Advogado com o foco em mostrar seus serviços. 
+# Projeto Freelacer Lading Page : Advogado Thiago 👩🏻‍💻
 
 
-Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
+<div align="center">
+  <h2>What I Learned From These Technologies.</h2> 
+  <p>Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services</p>
 
-## ▶️ Demonstração , Demonstration ▶️ 
+</div>
+
+## ▶️ Demonstration ▶️ 
 
 <div style="margin: auto;display: flex;">
-  <img width="148" src="./public/img/demo-mobile.gif" alt="imagem-mobile">
-  <img width="512" src="./public/img/demo-desktop.gif" alt="imagem-desktop">
+  <img width="148px " src="./src/images/lading-page-advogado-thiago-mobile.gif" alt="imagem-desktop">
+   <img width="512px" src="./src/images/lading-page-advogado-thiago.gif" alt="imagem-mobile">
+</div>
+
+  
+<div align="center">
+ <h2>🛠️ Technologies and Tools Used</h2>
+ <img width="400px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
 </div>
 
 
+<div align="center">
+ <h2>🤖 Hosting website.</h2>
+ <h3>Hostinger</h3>
+ 
+</div>
 
-<h1>Desktop:</h1>
-
-<img src="./src/images/lading-page-advogado-thiago.gif" alt="Lading page Gif" height="400px" width="1000px">
-
-<h1>Mobile:</h1>
-
-
-<img src="./src/images/lading-page-advogado-thiago-mobile.gif" alt="Lading page Gif" height="600px" width="300px">  
-
-
-## Tecnologias utilizadas, Technologies  used
- <h2> 💻Frontend: </h2>
- <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
-
-- HTML
-- CSS
+## 👩🏻‍💻 What l learned from  these technologies.
+  I learned for many skils, for bot hard skils and soft skils, dealing with deadlines for my client.I've had to improve my code ever day and study more about responsiveness and the fact <span>rem</span> it was very useful for adapt mt elements of mobile. 
 
 
-## Site para a Hospedagem, Hosting website.
-<h2>Hostinger</h2>
+## 🔍 About the Project
+The project is with mission of Landing page for a lawyer,it's very simple beacause use html , css and git, the Design use the Figma of Layout and the development of the website. 
 
-## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
+
+## 🏗 Structure and Architecture
+
+The project follows the principles of **clean code**, and the code was organized according to the principles of **modularity**.
+  
+
