@@ -11,7 +11,7 @@
 
 <div style="margin: auto;display: flex;gap:1rem;">
     <img width="150px" height="300px" src="./src/images/lading-page-advogado-thiago-mobile.gif" alt="imagem-desktop">
-   <img width="450px" height="300px" src="./src/images/lading-page-advogado-thiago.gif" alt="imagem-mobile">
+   <img width="500px" height="300px" src="./src/images/lading-page-advogado-thiago.gif" alt="imagem-mobile">
    
 </div>
 
